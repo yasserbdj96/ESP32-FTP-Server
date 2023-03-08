@@ -6,7 +6,7 @@
 const char* ssid = "SSID"; //WiFi SSID
 const char* password = "SSID_PASSWORD"; //WiFi Password
 
-FtpServer ftpSrv;   //set #define FTP_DEBUG in ESP32FtpServer.h to see ftp verbose on serial
+FtpServer ftpSrv; //set #define FTP_DEBUG in ESP32FtpServer.h to see ftp verbose on serial
 
 void setup(void){
   Serial.begin(115200);
